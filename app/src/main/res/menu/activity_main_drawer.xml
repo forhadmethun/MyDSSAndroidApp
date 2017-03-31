@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="পরিচিতি" />
+        <item
+            android:id="@+id/nav_citizen_charter"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="সিটিজেন চার্টার
+" />
+        <item
+            android:id="@+id/nav_help_center"
+            android:icon="@drawable/help"
+            android:title="সেবা কুঞ্জ" />
+        <!--
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/communication"
+            android:title="যোগাযোগ" />
+        -->
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/location"
+            android:title="কাছাকাছি সমাজসেবা অধিদফতর অফিস" />
+        <item
+            android:id="@+id/nav_live_events"
+            android:icon="@drawable/event"
+            android:title="লাইভ ইভেন্টস" />
+
+        <item
+            android:id="@+id/nav_photo_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ফটো গ্যালারী" />
+        <item
+            android:id="@+id/nav_innovation"
+            android:icon="@drawable/cast_ic_expanded_controller_rewind30"
+            android:title="ইনোভেশন বার্তা" />
+
+
+
+    </group>
+    <item android:title="যোগাযোগ" >
+        <menu>
+            <item
+                android:id="@+id/district"
+                android:icon="@drawable/website"
+                android:title="জেলা অফিস" />
+            <item
+                android:id="@+id/division"
+                android:icon="@drawable/feedback"
+                android:title="হেডকোয়ার্টার   অফিস" />
+
+
+
+
+        </menu>
+    </item>
+
+    <item android:title="Communicate" >
+        <menu>
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@drawable/website"
+                android:title="ওয়েবসাইট" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/feedback"
+                android:title="মুক্ত মত" />
+
+            <item
+                android:id="@+id/nav_fb"
+                android:icon="@drawable/fb"
+                android:title="ফেসবুক" />
+
+
+        </menu>
+    </item>
+
+</menu>
